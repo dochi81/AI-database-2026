@@ -34,7 +34,38 @@ AI 에이전트 개발자 과정 데이터베이스 리포지토리
 - 자신의 OS에 직접 설치하는 방법
   postgresql-18.6-3windowS-x64.exe
 
+
+
+
+
+
+
+
+
 superuser 아이디- postgres 패스워드 지정
+
+
+
+
+
+
+
+### DBeaver설치
+
+GUI DB 관리 툴
+https://dbeaver.io/download/
+설치생략
+
+
+
+
+
+3. 데이터베이스의 접속
+
+
+
+
+
 port 5432 기억할 것
 정상
 
@@ -52,11 +83,6 @@ port 5432 기억할 것
 - close and Restart 이후
 - WSL (window Subsystem for Linux) 추가 설치
 
-### DBeaver설치
-
-GUI DB 관리 툴
-https://dbeaver.io/download/
-설치생략
 
 ### DB접속
 
@@ -169,6 +195,7 @@ select * from piblic.students;
 -update 쿼리 작성
 
 
+
 --데이터 수정 (UPDATE)
 
 ```
@@ -186,8 +213,9 @@ delete from students
 ```
 
 
-- CUD- Creat,Update, Delete 의 약자
+- CRUD- Creat,Update, Delete 의 약자
 - C- INSERT
+- R- SELECT
 - U- UPDATE
 - D- DELETE
 
