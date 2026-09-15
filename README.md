@@ -213,7 +213,7 @@ delete from students
 ```
 
 
-- CRUD- Creat,Update, Delete 의 약자
+- CRUD- Creat,Read,Update, Delete 의 약자
 - C- INSERT
 - R- SELECT
 - U- UPDATE
