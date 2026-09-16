@@ -405,5 +405,34 @@ where 컬럼 is null/ is not null
 
 #### 제약조건
 
-##### 기본키
-테이블에서 각 행 (row, )
+##### 1.기본키
+
+테이블에서 각 행 (row) 구분하는 대표값. Primary key (PK) - **Unique 에 Not Null**
+
+- 중복 불가!
+- 비어있을 수 없다!
+- 한 행을 대표
+- 다른 테이블에서 참조한다
+
+postgreSQL은 `generated always as identity`숫자 타입의 자동증가,`primary key`가 기본키를 지정한다
+
+```
+id `int` generated always `as identity ptimary` key
+```
+
+mySQL에서 auto_increment, Oracle에서 identity 로 문법이 다름.
+
+##### 2. 외래키
+
+다른 테이블의 기본키를 참조하는 컬럼. Foreign key(FK)
+
+```plaintext
+Students (학생)
+- id : 학생아이디 PK
+- name : 학생이름
+
+Enrollments(수강)
+- id : 수강아이디 PK
+- students_id : 학생아이디
+- course_name: 수강명
+```
