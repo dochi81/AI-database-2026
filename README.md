@@ -1,4 +1,4 @@
-#### AI-database-2026
+### AI-database-2026
 
 AI 에이전트 개발자 과정 데이터베이스 리포지토리
 
@@ -554,4 +554,28 @@ ALTER TABLE public.products ALTER COLUMN category SET DEFAULT '미정';
 
 - 학생 한명은 여러 과목을 수강할 수 있음
 - 과목 하나에는 여러 학생이 수강할 수 있음
+- 학생 테이블 주요정보
+  - 이름, 이메일, 나이, 전공
+- 과목 테이블 주요정보
+  - 타이틀, 교강사, 시수
+- 수강신청 주요정보
+  - 수강 학생정보 구분값, 과목 정보 구분값
+
+### 모델링 툴
+
+- ERD (Entity Relationship Diagram) 모델링
+- https://www.erdcloud.com/
+
+![](assets/20260917_161540_image.png)
+
+- 학생과목 수강관리 테이블 ERD
+
+### JOIN
+
+관계형 데이터베이스에서 여러개로 나눈 테이블의 정보를 하나로 합쳐서 조회하는 것
+
+
+### 트랜잭션
+
+- 커밋,롤백
 -
