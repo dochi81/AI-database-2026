@@ -577,4 +577,4 @@ ALTER TABLE public.products ALTER COLUMN category SET DEFAULT '미정';
 ### 트랜잭션
 
 - 커밋,롤백
--
+- 
