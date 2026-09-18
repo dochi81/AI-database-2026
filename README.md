@@ -254,8 +254,7 @@ Postgres 기본타입
 
 - INSERT 쿼리로 데이터 추가
 
---학생정보 추가 쿼리
---쿼리문법 문자열 무조건 ''
+--학생정보 추가 쿼리--쿼리문법 문자열 무조건
 `insert into` students(name,age,email)
 `values`('홍길동','20','hong@example.com');
 
